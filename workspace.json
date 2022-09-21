@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "hyperment": "apps/hyperment",
+    "hyperment-e2e": "apps/hyperment-e2e"
+  }
+}
