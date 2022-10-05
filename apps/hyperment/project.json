@@ -10,14 +10,15 @@
       "options": {
         "compiler": "babel",
         "outputPath": "dist/apps/hyperment",
-        "index": "apps/hyperment/src/index.html",
+        "index": "apps/hyperment/public/index.html",
         "baseHref": "/",
         "main": "apps/hyperment/src/main.tsx",
         "polyfills": "apps/hyperment/src/polyfills.ts",
         "tsConfig": "apps/hyperment/tsconfig.app.json",
         "assets": [
           "apps/hyperment/src/favicon.ico",
-          "apps/hyperment/src/assets"
+          "apps/hyperment/src/assets",
+          "apps/hyperment/src/manifest.json"
         ],
         "styles": [],
         "scripts": [],
